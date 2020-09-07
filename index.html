@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/canvas_style.css">
+        <link rel="stylesheet" type="text/css" href="css/div_size.css">
+        <link rel="stylesheet" type="text/css" href="css/container.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>   
+        <div class="panel panel-primary" id="can"><!--Canvas Panel-->
+            <div class="panel-heading">
+                Περιοχή Σχεδίασης
+                <a href="#" class="btn btn-info btn-xs pull-right" id="delete_btn" onclick = "eraseCanvas()">
+                    <span class="glyphicon glyphicon-erase"></span>Σβήσιμο
+                </a>
+            </div>
+            <div>
+               <div class="panel-body">
+                    <div id="paint" style="position: relative;">
+                        <canvas id="myCanvas" width="1000" height="500"></canvas>
+                    </div> 
+               </div> 
+            </div>
+        </div>
+        <script src="https://riversun.github.io/jsframe/jsframe.js"></script>
+        <script src="http://github.com/google/palette.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/TableDnD/0.9.1/jquery.tablednd.js" integrity="sha256-d3rtug+Hg1GZPB7Y/yTcRixO/wlI78+2m08tosoRn7A=" crossorigin="anonymous"></script>
+        <script src="js/window_resize.js"></script>
+        <script src = "js/global_variables.js"></script>
+        <script src="js/draw/drawn_shape_table.js"></script>
+        <script src="js/draw/draw_utility.js"></script>
+        <script src="js/draw/draw_triangle.js"></script>
+        <script src="js/draw/draw_square.js"></script>
+        <script src="js/draw/draw_circle.js"></script>
+        <script src="js/draw/draw_rectangle.js"></script>
+        <script src="js/draw/polygon_utility_functions.js"></script>
+        <script src="js/draw/draw_polygon.js"></script>
+        <script src="js/frames/get_set_frame_contents.js"></script>
+        <script src="js/frames/transformation_frame.js"></script>
+        <script src="js/frames/information_frame.js"></script>
+        <script src="js/frames/information_frame_table.js"></script>
+        <script src ="js/frames/shapes_div/triangle_div.js"></script>
+        <script src ="js/frames/shapes_div/square_div.js"></script>
+        <script src ="js/frames/shapes_div/rectangle_div.js"></script>
+        <script src ="js/frames/shapes_div/circle_div.js"></script>
+        <script src ="js/frames/shapes_div/polygon_div.js"></script>
+        <script src ="js/frames/transformations_div/transportation_div.js"></script>
+        <script src = "js/frames/transformations_div/rotation_div.js"></script>
+        <script src= "js/frames/transformations_div/scale_div.js"></script>
+        <script src ="js/frames/main_frame.js"></script>
+        <script src="js/frames/create_frame.js"></script>
+        <script src = "js/canvas_utility_functions.js"></script>
+        <script src="js/show_hide_clear_forms.js"></script>
+        <script src = "js/frames/change_selection.js"></script>
+        <script src="js/page_loads.js"></script>
+        <script src="classes/shapesDrawing.js"></script>
+        <script src="classes/polygon.js"></script>
+        <script src="classes/circle.js"></script>
+        <script src="classes/transformation.js"></script>
+        <script src="classes/translation.js"></script>
+        <script src="classes/rotation.js"></script>
+        <script src="classes/scale.js"></script>
+        <script src="js/mouseover.js"></script>
+        <script src="js/transformation_button_click.js"></script>
+        <script src="js/transform/insert_transport.js"></script>
+        <script src="js/frames/transformation_div_tables.js"></script>
+        <script src="js/transform/insert_rotation.js"></script>
+        <script src="js/transform/insert_scale.js"></script>
+        <script src="js/transform/implement_transformations.js"></script>
+    </body>   
+</html>    

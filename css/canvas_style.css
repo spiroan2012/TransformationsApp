@@ -1,0 +1,13 @@
+	.remove:hover {
+		color: red;
+	}
+	
+	body {
+		margin: 25px;
+		padding: 25px;
+	}
+	
+	.dropdown-toggle:active, .open .dropdown-toggle {
+		background:#FFF !important; 
+		color:#000 !important;
+	}

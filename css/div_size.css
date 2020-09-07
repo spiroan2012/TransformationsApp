@@ -1,0 +1,40 @@
+#dynamic_polygon_points{
+    width: 290;
+    height: 200;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    padding-right: 20px;
+}
+
+#table_div{
+    width: 250;
+    height: 150;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    display: none;
+}
+
+#drawn_shapes_div{
+    width: 250;
+    height: 150;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    display: none;
+}
+
+#info_shapes_table_div{
+    width: 250;
+    height: 550;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+
+#checkbox_div{ 
+    padding-left:30px;
+    padding-bottom:10px;
+    padding-right: 10px;
+}
+
+.textbox_padding{
+    padding-top: 10px;
+}
